@@ -68,7 +68,7 @@ async def order_by_number(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     
-    application = Application.builder().token("7837681058:AAHt1lec81873SVtNl5m1FKHacyJmeb5hXA").build()
+    application = Application.builder().token("").build()
     
   
     logger.info("Бот успешно запущен и готов к работе.")
